@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{ /* Começo do código*/
+    font-size: 100%;
+    background:  linear-gradient(103.94deg, #29353B 3.57%, #2C373D 3.58%, #235E7E 101.4%);
+}
+
+.cabecalho{ /*Acho que aqui eu insiro o retângulo*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem{ /*logo venus*/
+    height: 74px;
+}
+
+.cabecalho-menu{ /*classe pais dos navs*/
+    display: flex;
+    gap: 32px;
+
+}
+.cabecalho-menu-item{ /*os navs*/
+   font-family: 'Sarala', sans-serif;
+  color: #FFF2E7;
+  font-weight: 700;
+  font-size: 24px
+
+}
+
+.conteudo{ /*classe pai do conteudo*/
+    margin-bottom: 48px;
+    
+
+}
+
+.conteudo-principal{ /*classe pai do conteudo principal*/
+   
+
+}
+
+.conteudo-principal-escrito{ /*classe pai do conteudo principal escrito*/
+
+}
+
+.conteudo-principal-escrito-titulo{/*ultimos trabalhos*/
+position: absolute;
+width: 328px;
+height: 47px;
+left: 85px;
+top: 170px;
+
+font-family: 'Righteous', cursive;
+font-weight: 4
+00;
+font-size: 64px;
+color: #FFF2E7;
+}
+
+.conteudo-principal-escrito-foto{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ECD6C4;
+}
+
+.conteudo-principal-escrito-legenda{/*legenda de cada trabalho*/
+    font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ECD6C4;
+}
+ 
+.conteudo-principal-imagem{/*as fotos*/
+    height: 430px;
+
+}
+
+.conteudo-secundario{ /*classe mãe do botao*/
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+
+}
+
+.conteudo-secundario-escrito-botao{ /*faça seu orçamento*/
+    background-color:#77D99E;
+    width: 300px;
+    height: 80px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color:white;
+}
+
+.rodape{
+    padding: 32px;
+
+}
+
+.rodape-logo{ /*logo dnv*/
+    height: 60px;
+  display: block;
+  margin: 0 auto;
+
+}
+
